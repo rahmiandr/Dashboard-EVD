@@ -28,12 +28,12 @@
 
 ## :scroll: Tentang
 
-<div align="justify">
+<p align="justify">
 Selamat datang di proyek analisis emisi CO2 Kendaraan.
 Proyek ini bertujuan untuk memberikan wawasan mendalam mengenai emisi CO2 yang dihasilkan oleh kendaraan berdasarkan berbagai fitur teknisnya. Kami menggabungkan eksplorasi data dan pemodelan statistik untuk menganalisis faktor-faktor yang mempengaruhi variasi emisi CO2, seperti jenis bahan bakar, konsumsi bahan bakar, transmisi, dan lainnya. Dengan informasi yang diperoleh dari dataset yang berasal dari situs data terbuka Pemerintah Kanada, kami berharap dapat menghasilkan temuan yang bermanfaat dalam mengurangi dampak negatif kendaraan terhadap lingkungan.
 
 Kami berkomitmen untuk menyediakan analisis yang akurat dan dapat digunakan untuk memahami emisi CO2 yang dihasilkan oleh kendaraan, serta mengembangkan model yang dapat digunakan dalam pengambilan keputusan yang lebih ramah lingkungan. Dengan pendekatan yang berbasis data, kami berupaya memberikan solusi yang lebih baik dan lebih berkelanjutan untuk sektor transportasi di masa depan. Temukan lebih banyak tentang bagaimana kendaraan mempengaruhi emisi CO2 dan bagaimana kita dapat mencapainya dengan cara yang lebih efisien dan ramah lingkungan.
-</div>
+</p>
 
 
 ## :pushpin: Informasi
@@ -53,13 +53,43 @@ Berikut merupakan link untuk shinnyapps atau dashboard dari projek kami:
 
 ## :heavy_check_mark: Dataset
 <div align="justify">
+  
 **Deskripsi Data:**
 Dataset ini mencatat rincian mengenai bagaimana emisi CO2 pada kendaraan dapat bervariasi dengan berbagai fitur yang ada. Dataset ini diambil dari situs data terbuka resmi Pemerintah Kanada dan merupakan versi yang telah disusun. Data ini mencakup periode 7 tahun.
 
 Dataset ini memiliki total 7385 baris dan 12 kolom. Terdapat beberapa singkatan yang digunakan untuk menggambarkan fitur-fitur dalam dataset ini, dan informasi lebih lanjut mengenai hal tersebut dapat ditemukan dalam link dibawah ini. Fitur-fitur dalam dataset ini mencakup model kendaraan, jenis transmisi, jenis bahan bakar, konsumsi bahan bakar, dan emisi CO2, yang memungkinkan analisis mengenai faktor-faktor yang mempengaruhi emisi CO2 kendaraan.
 
+**Deskripsi Variabel:**
+- **Model**: Menyediakan informasi tentang jenis kendaraan, termasuk:
+  - 4WD/4X4: Kendaraan dengan penggerak empat roda.
+  - AWD: All-wheel drive (penggerak semua roda).
+  - FFV: Kendaraan fleksibel yang dapat menggunakan berbagai jenis bahan bakar.
+  - SWB: Short wheelbase (jarak roda pendek).
+  - LWB: Long wheelbase (jarak roda panjang).
+  - EWB: Extended wheelbase (jarak roda lebih panjang).
+  
+- **Transmission**: Jenis transmisi kendaraan, termasuk:
+  - A: Otomatis
+  - AM: Manual otomatis
+  - AS: Otomatis dengan pemilihan gigi
+  - AV: Variabel terus-menerus
+  - M: Manual
+  - 3-10: Jumlah gigi transmisi kendaraan.
+  
+- **Fuel Type**: Jenis bahan bakar yang digunakan oleh kendaraan, antara lain:
+  - X: Gasoline reguler (bensin)
+  - Z: Premium gasoline (bensin premium)
+  - D: Diesel
+  - E: Etanol (E85)
+  - N: Gas alam
+  
+- **Fuel Consumption**: Mengukur konsumsi bahan bakar kendaraan dalam liter per 100 km (L/100 km) dengan rating gabungan untuk kota dan jalan raya (55% kota, 45% jalan raya). Nilai ini juga dihitung dalam satuan mil per galon (mpg).
+  
+- **CO2 Emissions**: Emisi CO2 kendaraan yang dikeluarkan melalui knalpot, diukur dalam gram per kilometer (g/km) untuk kombinasi kota dan jalan raya.
+
 **Sumber:** [Kaggle - CO2 Emission by Vehicles](https://www.kaggle.com/datasets/athenalan/co2-emission-by-vehicles)
 </div>
+
 
 ## :busts_in_silhouette: Tim Pengembang
 ### Dosen Pengampu :
