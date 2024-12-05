@@ -24,6 +24,7 @@
 - [Screenshot](#desktop_computer-screenshot)
 - [Demo](#dvd-demo)
 - [Deskripsi Data](#heavy_check_mark-dataset)
+- [Analisis Data](mag_right-analisis)
 - [Tim Pengembang](#busts_in_silhouette-tim-pengembang)
 
 ## :scroll: Tentang
@@ -90,6 +91,25 @@ Dataset ini memiliki total 7385 baris dan 12 kolom. Terdapat beberapa singkatan 
 **Sumber:** [Kaggle - CO2 Emission by Vehicles](https://www.kaggle.com/datasets/athenalan/co2-emission-by-vehicles)
 </div>
 
+## :mag_right: Analisis Data
+### Korelasi
+<div align="justify">
+Metode korelasi digunakan untuk mengukur sejauh mana hubungan antara dua peubah. Korelasi ini dihitung menggunakan koefisien korelasi yang berkisar antara -1 dan 1. Nilai ini menunjukkan arah dan kekuatan hubungan antara dua peubah, apakah positif atau negatif.
+
+Dalam konteks emisi CO2, korelasi dapat digunakan untuk mengukur hubungan antara konsumsi bahan bakar dan emisi CO2. Misalnya, apakah kendaraan dengan konsumsi bahan bakar yang lebih tinggi menghasilkan lebih banyak emisi CO2. Korelasi membantu kita mengetahui apakah ada pola yang dapat digunakan untuk mengurangi emisi.
+</div>
+
+### Regresi
+<div align="justify">
+Regresi adalah metode statistik yang digunakan untuk memodelkan hubungan antara satu atau lebih peubah independen dengan peubah dependen. Dalam analisis regresi, kita mencoba untuk memprediksi nilai peubah dependen (emisi CO2) berdasarkan peubah independen (misalnya, konsumsi bahan bakar, jenis kendaraan, dll). Regresi yang digunakan adalah regresi linear sederhana dan juga regresi linear berganda.
+</div>
+
+### ANOVA
+<div align="justify">
+ANOVA (Analysis of Variance) adalah metode statistik yang digunakan untuk membandingkan rata-rata dari lebih dari dua kelompok. Dengan menggunakan ANOVA, kita dapat mengetahui apakah ada perbedaan yang signifikan antara kelompok yang diuji.
+
+Jika nilai F besar dan signifikan, ini menunjukkan bahwa ada perbedaan yang signifikan antara rata-rata kelompok. Hal ini membantu kita memahami bagaimana kelompok-kelompok dalam dataset memiliki pengaruh terhadap variabel tertentu (misalnya, emisi CO2).
+</div>
 
 ## :busts_in_silhouette: Tim Pengembang
 ### Dosen Pengampu :
