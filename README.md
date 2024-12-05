@@ -30,13 +30,17 @@
 ## :scroll: Tentang
 
 <div align="justify">
-Selamat datang di Goodreads Novel Indonesia Database.
-Goodreads Novel Indonesia adalah teman setia para pencinta buku, membantu Anda menemukan novel-novel yang sesuai dengan selera dan minat Anda. Sumber daya lengkap untuk menemukan dan menikmati novel-novel terbaik dari penulis Indonesia! Dari kisah-kisah yang mendebarkan hingga petualangan yang memukau, kami hadir untuk memudahkan Anda menemukan cerita-cerita yang memikat hati dan pikiran. Jelajahi dunia yang kaya dengan judul-judul menarik dan penulis berbakat, serta nikmati ulasan-ulasan berkualitas dari komunitas pembaca kami. Temukan petualangan baru di setiap halaman, hanya di Goodreads Novel Indonesia!
+Selamat datang di proyek analisis emisi CO2 Kendaraan.
+Proyek ini bertujuan untuk memberikan wawasan mendalam mengenai emisi CO2 yang dihasilkan oleh kendaraan berdasarkan berbagai fitur teknisnya. Kami menggabungkan eksplorasi data dan pemodelan statistik untuk menganalisis faktor-faktor yang mempengaruhi variasi emisi CO2, seperti jenis bahan bakar, konsumsi bahan bakar, transmisi, dan lainnya. Dengan informasi yang diperoleh dari dataset yang berasal dari situs data terbuka Pemerintah Kanada, kami berharap dapat menghasilkan temuan yang bermanfaat dalam mengurangi dampak negatif kendaraan terhadap lingkungan.
 
-Dengan informasi terkini dan ulasan yang dapat dipercaya, kami siap membawa Anda dalam perjalanan menemukan cerita-cerita tak terlupakan. Jadikan Goodreads Novel Indonesia sebagai panduan Anda dalam dunia literasi Indonesia yang kaya dan memikat!
+Proyek ini adalah bagian dari tugas akhir mata kuliah Praktikum Manajemen Data Statistika, Program Magister Statistika dan Sains Data di IPB University. Kami berkomitmen untuk menyediakan analisis yang akurat dan dapat digunakan untuk memahami emisi CO2 yang dihasilkan oleh kendaraan, serta mengembangkan model yang dapat digunakan dalam pengambilan keputusan yang lebih ramah lingkungan.
+
+Dengan pendekatan yang berbasis data, kami berupaya memberikan solusi yang lebih baik dan lebih berkelanjutan untuk sektor transportasi di masa depan. Temukan lebih banyak tentang bagaimana kendaraan mempengaruhi emisi CO2 dan bagaimana kita dapat mencapainya dengan cara yang lebih efisien dan ramah lingkungan.
+</div>
+
 
 ## :pushpin: Informasi
-Projek ini merupakan tugas akhir mata kuliah Praktikum Manajemen Data Statistika, Program Magister Statistika dan Sains Data, IPB University. Projek ini mengambil topik tentang Database Novel Indonesia. Tugas akhir ini membahas terkait novel, penulis, penerbit, serta ulasan yang telah diberikan pembaca. Dataset yang digunakan berasal dari website [goodreads](https://www.goodreads.com/list/show/67567.Novel_Indonesia_Terbaik). Hasil yang diharapkan adalah berupa platform basis data dalam bentuk aplikasi web agar memudahkan pengguna dalam mencari referensi novel yang mereka inginkan berdasarkan beberapa pilihan seperti penulis, penerbit, rating, serta dapat mengetahui ulasan dari pengguna lain untuk lebih tau secara mendalam terkait novel yang diinginkan.
+Projek ini merupakan tugas akhir mata kuliah Eksplorasi dan Visualisasi Data, Program Magister Statistika dan Sains Data, IPB University. Projek ini mengambil topik tentang Emisi CO2 Kendaraan. Tugas akhir ini membahas terkait visualisasi serta menganalisis emisi CO2 pada kendaraan dengan menggunakan berbagai fitur kendaraan (seperti jenis bahan bakar, konsumsi bahan bakar, dan jenis transmisi). Hasil yang diharapkan adalah berupa adanya pemahaman lebih mendalam mengenai faktor-faktor yang mempengaruhi emisi CO2 pada kendaraan dan mengembangkan model analisis untuk memberikan wawasan yang dapat digunakan untuk mengurangi dampak lingkungan di sektor transportasi.
 
 ## :desktop_computer: Screenshot
 
@@ -46,7 +50,7 @@ Projek ini merupakan tugas akhir mata kuliah Praktikum Manajemen Data Statistika
 
 ## :dvd: Demo
 
-Berikut merupakan link untuk shinnyapps atau dashboard dari project kami: https://rahmiandr.shinyapps.io/project_MDSkel3/
+Berikut merupakan link untuk shinnyapps atau dashboard dari projek kami: 
 
 ## :heavy_check_mark: Dataset
 **Deskripsi Data:**
@@ -57,7 +61,7 @@ Dataset ini memiliki total 7385 baris dan 12 kolom. Terdapat beberapa singkatan 
 **Sumber:** [Kaggle - CO2 Emission by Vehicles](https://www.kaggle.com/datasets/athenalan/co2-emission-by-vehicles)
 
 
-## :busts_in_silhouette-tim-pengembang: Tim Pengembang
+## :busts_in_silhouette: Tim Pengembang
 ### Dosen Pengampu :
 1. Dr. Anwar Fitrianto, S.Si., M.Sc
 2. Dr. Ir. Erfiani, M.Si
