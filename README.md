@@ -45,7 +45,7 @@ Projek ini merupakan tugas akhir mata kuliah Eksplorasi dan Visualisasi Data, Pr
 ## :desktop_computer: Screenshot
 
 <p align="center">
-  <img width="900" height="500" src="https://raw.githubusercontent.com/rahmiandr/Dashboard-EVD/refs/heads/main/gambar/Screenshot_5.png">
+  <img width="900" height="500" src="https://raw.githubusercontent.com/rahmiandr/Dashboard-EVD/refs/heads/main/gambar/dashboard.png">
 </p>
 
 ## :dvd: Demo
