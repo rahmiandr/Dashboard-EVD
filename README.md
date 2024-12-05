@@ -1,5 +1,5 @@
 <p align="center" style="width: 800px; height: 400px;">
-  <img idth="500" height="300" src="[image/logo.png](https://github.com/rahmiandr/Dashboard-EVD/blob/main/gambar/337933820_d0ed2598-ff69-459f-830e-f1a1469973ab.jpg?raw=true)">
+  <img idth="500" height="300" src="https://raw.githubusercontent.com/rahmiandr/Dashboard-EVD/refs/heads/main/gambar/337933820_d0ed2598-ff69-459f-830e-f1a1469973ab.jpg">
 </p>
 
 <div align="center">
