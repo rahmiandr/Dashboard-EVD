@@ -1,79 +1,52 @@
-# Asosiasi Dua Peubah Kategorik
+# Emisi CO2 Kendaraan di Kanada
+
+<p align="center" style="width: 800px; height: 400px;">
+  <img idth="500" height="300" src="image/logo.png">
+</p>
+
+<div align="center">
+
+# Goodreads Novel Indonesia Database
 
 [Tentang](#scroll-tentang)
 •
+[Informasi](#pushpin-informasi)
+•
+[Screenshot](#desktop_computer-screenshot)
+•
 [Demo](#dvd-demo)
-•
-[Dokumentasi](#blue_book-dokumentasi)
-•
-[Sumber Data](#heavy_check_mark-deskripsi-data)
-•
-[Tim Pengembang](#smiley_cat-tim-pengembang)
-•
 
 </div>
 
+## :bookmark_tabs: Menu
+
+- [Tentang](#scroll-tentang)
+- [Informasi](pushpin-informasi)
+- [Screenshot](#desktop_computer-screenshot)
+- [Demo](#dvd-demo)
+- [Deskripsi Data](#heavy_check_mark-deskripsi-data)
+- [Tim Pengembang](#busts_in_silhouette-tim-pengembang)
+
 ## :scroll: Tentang
-Asosiasi dua variabel kategorik adalah hubungan antara dua variabel yang masing-masing memiliki dua atau lebih kategori. Hubungan ini dapat berupa hubungan searah, berlawanan arah, atau tidak berhubungan sama sekali.
 
-Untuk menguji ada atau tidaknya asosiasi antara dua variabel kategorik, dapat dilakukan dengan menggunakan uji statistik, seperti uji chi-square. Uji chi-square digunakan untuk menguji apakah frekuensi observasi pada tabel kontingensi berbeda secara signifikan dari frekuensi harapan.
+<div align="justify">
+Selamat datang di Goodreads Novel Indonesia Database.
+Goodreads Novel Indonesia adalah teman setia para pencinta buku, membantu Anda menemukan novel-novel yang sesuai dengan selera dan minat Anda. Sumber daya lengkap untuk menemukan dan menikmati novel-novel terbaik dari penulis Indonesia! Dari kisah-kisah yang mendebarkan hingga petualangan yang memukau, kami hadir untuk memudahkan Anda menemukan cerita-cerita yang memikat hati dan pikiran. Jelajahi dunia yang kaya dengan judul-judul menarik dan penulis berbakat, serta nikmati ulasan-ulasan berkualitas dari komunitas pembaca kami. Temukan petualangan baru di setiap halaman, hanya di Goodreads Novel Indonesia!
 
-Jika hasil uji chi-square signifikan, maka dapat disimpulkan bahwa terdapat asosiasi antara dua variabel kategorik tersebut. Untuk mengukur kekuatan asosiasi tersebut, dapat digunakan berbagai ukuran asosiasi, seperti odds ratio, relative risk, atau koefisien gamma.
+Dengan informasi terkini dan ulasan yang dapat dipercaya, kami siap membawa Anda dalam perjalanan menemukan cerita-cerita tak terlupakan. Jadikan Goodreads Novel Indonesia sebagai panduan Anda dalam dunia literasi Indonesia yang kaya dan memikat!
 
-Berikut adalah beberapa contoh asosiasi antara dua variabel kategorik:
+## :pushpin: Informasi
+Projek ini merupakan tugas akhir mata kuliah Praktikum Manajemen Data Statistika, Program Magister Statistika dan Sains Data, IPB University. Projek ini mengambil topik tentang Database Novel Indonesia. Tugas akhir ini membahas terkait novel, penulis, penerbit, serta ulasan yang telah diberikan pembaca. Dataset yang digunakan berasal dari website [goodreads](https://www.goodreads.com/list/show/67567.Novel_Indonesia_Terbaik). Hasil yang diharapkan adalah berupa platform basis data dalam bentuk aplikasi web agar memudahkan pengguna dalam mencari referensi novel yang mereka inginkan berdasarkan beberapa pilihan seperti penulis, penerbit, rating, serta dapat mengetahui ulasan dari pengguna lain untuk lebih tau secara mendalam terkait novel yang diinginkan.
 
-* Hubungan antara jenis kelamin dan pekerjaan.
-* Hubungan antara tingkat pendidikan dan penghasilan.
-* Hubungan antara ras dan tingkat kriminalitas.
+## :desktop_computer: Screenshot
 
-Berikut adalah beberapa ukuran asosiasi yang dapat digunakan untuk mengukur asosiasi antara dua variabel kategorik:
-
-* **Odds ratio** (OR) adalah ukuran asosiasi yang mengukur perbandingan peluang terjadinya suatu kejadian pada satu kelompok dengan peluang terjadinya kejadian tersebut pada kelompok lain.
-* **Relative risk** (RR) adalah ukuran asosiasi yang mengukur perbandingan risiko terjadinya suatu kejadian pada satu kelompok dengan risiko terjadinya kejadian tersebut pada kelompok lain.
-
-Ukuran asosiasi yang digunakan akan tergantung pada jenis asosiasi yang ingin diukur.
+<p align="center">
+  <img width="900" height="500" src="image/Dashboard.png">
+</p>
 
 ## :dvd: Demo
 
-Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
-
-https://rismandwij.shinyapps.io/AsosiasiDuaPeubahKategorik/
-
-## :blue_book: Dokumentasi 
-
-## Penjelasan singkat masing-masing library yang digunakan:
-
-**1. shiny:**
-
-* Paket shiny digunakan untuk membuat aplikasi web interaktif dengan R. Anda dapat membuat berbagai macam aplikasi, seperti dashboard, visualisasi data, dan alat interaktif lainnya.
-
-**2. sjPlot:**
-
-* Paket sjPlot adalah extension dari ggplot2 untuk membuat grafik dan visualisasi data statistik yang lebih spesifik. Sangat berguna untuk membuat publikasi ilmiah, presentasi, dan laporan.
-
-**3. plotly:**
-
-* Paket plotly digunakan untuk membuat visualisasi data interaktif menggunakan JavaScript library. Grafik yang dihasilkan dapat di-zoom, dipan, dan diputar untuk melihat data dari berbagai sudut.
-
-**4. rhandsontable:**
-
-* Paket rhandsontable menyediakan fungsi untuk membuat spreadsheet interaktif yang dapat digunakan dalam aplikasi web shiny. Spreadsheet ini dapat diedit oleh pengguna, dan perubahan yang dibuat akan direfleksikan di data yang diproses oleh aplikasi.
-
-**5. tidyverse:**
-
-* Tidyverse adalah kumpulan paket yang bekerja bersama-sama untuk manipulasi, cleaning, dan analisis data. Paket ini menyediakan berbagai fungsi untuk membuat kode R lebih ringkas dan mudah dibaca.
-
-**6. epitoools:**
-
-* Paket epitoools adalah kumpulan fungsi untuk epidemiologi dan statistik kesehatan. Paket ini menyediakan berbagai fungsi untuk menghitung ukuran asosiasi, uji hipotesis, dan analisis data epidemiologi.
-
-**7. markdown:**
-
-* Paket markdown digunakan untuk menulis dokumen yang dapat dikonversi ke berbagai format, seperti HTML, PDF, dan Word. Ini berguna untuk membuat laporan, presentasi, dan dokumentasi.
-
-**8. knitr:**
-
-* Paket knitr adalah ekstensi dari markdown untuk menulis dokumen yang menggabungkan kode R dan teks. Kode R akan dieksekusi dan hasilnya akan ditampilkan dalam dokumen output. Ini berguna untuk membuat laporan, presentasi, dan blog yang berisi kode R dan hasil eksekusi.
+Berikut merupakan link untuk shinnyapps atau dashboard dari project kami: https://rahmiandr.shinyapps.io/project_MDSkel3/
 
 ## :heavy_check_mark: Dataset
 **Deskripsi Data:**
@@ -84,7 +57,7 @@ Dataset ini memiliki total 7385 baris dan 12 kolom. Terdapat beberapa singkatan 
 **Sumber:** [Kaggle - CO2 Emission by Vehicles](https://www.kaggle.com/datasets/athenalan/co2-emission-by-vehicles)
 
 
-## :smiley_cat: Tim Pengembang
+## :busts_in_silhouette-tim-pengembang: Tim Pengembang
 ### Dosen Pengampu :
 1. Dr. Anwar Fitrianto, S.Si., M.Sc
 2. Dr. Ir. Erfiani, M.Si
