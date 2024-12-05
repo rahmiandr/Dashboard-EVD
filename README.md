@@ -20,7 +20,7 @@
 ## :bookmark_tabs: Menu
 
 - [Tentang](#scroll-tentang)
-- [Informasi](pushpin-informasi)
+- [Informasi](#pushpin-informasi)
 - [Screenshot](#desktop_computer-screenshot)
 - [Demo](#dvd-demo)
 - [Deskripsi Data](#heavy_check_mark-dataset)
