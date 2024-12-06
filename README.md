@@ -50,7 +50,7 @@ Projek ini merupakan tugas akhir mata kuliah Eksplorasi dan Visualisasi Data, Pr
 
 ## :dvd: Demo
 
-Berikut merupakan link untuk shinnyapps atau dashboard dari projek kami: 
+Berikut merupakan link untuk shinnyapps atau dashboard dari projek kami: https://github.com/rahmiandr/Dashboard-EVD
 
 ## :heavy_check_mark: Dataset
 <div align="justify">
